@@ -8,7 +8,7 @@ WORKDIR /app
 
 COPY repo/crmeb/ .
 
-RUN mvn dependency:go-offline -B -q || true
+RUN mvn install -DskipTests -B -q
 
 RUN git init && git config user.email "dev@example.com" && git config user.name "Developer" && git add -A && git commit -m "Initial commit"
 
