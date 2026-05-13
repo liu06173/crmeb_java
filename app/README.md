@@ -132,7 +132,3 @@ H5运行成功
 ![](https://gitee.com/xghc/picture/raw/master/img/screenshot_1627954579617.png)
 如果不能自动打开微信开发者工具，记得开启如下端口，如果还不能自动打开，尝试重启软件，或者设备。这里走运行是为了有热更新等方便调试，如果要发布上传代码，点击发行，否则会出现超包提示
 ![](https://gitee.com/xghc/picture/raw/master/img/screenshot_1627954636514.png)
-# **视频教程列表**
-*****
-
-<iframe src="//player.bilibili.com/player.html?aid=417665101&bvid=BV17V411J7kY&cid=326210603&page=1" scrolling="no" border="0" frameborder="no" height=400 width=600 framespacing="0" allowfullscreen="true"> </iframe>
