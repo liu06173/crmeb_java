@@ -33,12 +33,12 @@ echo "=== Schema imported ($(mysql -u root -e 'SELECT COUNT(*) FROM information_
 
 echo "=== Starting Admin (port 8080) ==="
 cd /app/crmeb-admin
-java -jar target/Crmeb-admin.jar &
+java -jar target/Crmeb-admin.jar --server.address=0.0.0.0 &
 ADMIN_PID=$!
 
 echo "=== Starting Front (port 8081) ==="
 cd /app/crmeb-front
-java -jar target/Crmeb-front.jar &
+java -jar target/Crmeb-front.jar --server.address=0.0.0.0 &
 FRONT_PID=$!
 
 echo ""
