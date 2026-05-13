@@ -7,7 +7,6 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 /**
- * @Auther: 大粽子
  * @Date: 2023/5/16 11:44
  * @Description: 页面分类和DIY用到的实体参数
  */

@@ -8,7 +8,6 @@ import com.zbkj.common.model.page.PageDiy;
  * DIY数据表 Mapper 接口
  * </p>
  *
- * @author dazongzi
  * @since 2023-05-16
  */
 public interface PageDiyDao extends BaseMapper<PageDiy> {

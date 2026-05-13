@@ -50,13 +50,9 @@ import java.util.stream.Collectors;
 /**
  * StoreProductReplyServiceImpl 接口实现
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -461,7 +457,6 @@ public class StoreProductReplyServiceImpl extends ServiceImpl<StoreProductReplyD
 
     /**
      * 如果所有的都已评价，那么订单完成
-     * @author Mr.Zhang
      * @since 2020-06-03
      * @return Integer
      */
@@ -479,7 +474,6 @@ public class StoreProductReplyServiceImpl extends ServiceImpl<StoreProductReplyD
 
     /**
      * 检测当前商品是否可以评论
-     * @author Mr.Zhang
      * @since 2020-06-03
      * @return Integer
      */
@@ -520,7 +514,6 @@ public class StoreProductReplyServiceImpl extends ServiceImpl<StoreProductReplyD
 
     /**
      * 根据商品id  订单id  用户id 获取评论信息
-     * @author Mr.Zhang
      * @since 2020-06-03
      * @return Integer
      */

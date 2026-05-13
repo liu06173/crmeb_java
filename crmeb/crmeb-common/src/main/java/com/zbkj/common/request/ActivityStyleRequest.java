@@ -9,7 +9,6 @@ import javax.validation.constraints.NotNull;
 
 /**
  * 活动维护对象
- * @Auther: 大粽子
  * @Date: 2023/1/5 12:15
  * @Description: 活动controller request
  */

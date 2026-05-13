@@ -17,7 +17,6 @@ import java.util.Date;
  * 定时任务日志
  * </p>
  *
- * @author HZW
  * @since 2021-11-30
  */
 @Data

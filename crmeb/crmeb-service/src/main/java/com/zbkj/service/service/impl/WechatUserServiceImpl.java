@@ -9,13 +9,9 @@ import org.springframework.stereotype.Service;
 /**
  * 微信用户表 服务实现类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -35,7 +31,6 @@ public class WechatUserServiceImpl implements WechatUserService {
 //     * 消息推送
 //     * @param userId 用户id
 //     * @param newsId 图文消息id
-//     * @author Mr.Zhang
 //     * @since 2020-04-11
 //     * @return Boolean
 //     */
@@ -55,7 +50,7 @@ public class WechatUserServiceImpl implements WechatUserService {
 ////                    {
 ////                        "title":"Happy Day",
 ////                        "description":"Is Really A Happy Day",
-////                        "url":"http://front.java.crmeb.net:20002/articleManager",
+////                        "url":"",
 ////                        "picurl":"https://wuht-1300909283.cos.ap-chengdu.myqcloud.com/image/wechat/2020/06/16/003b595d6cc544dd981d3468d5caafa38p24bq7sa7.jpg"
 ////                    }
 ////                ]

@@ -13,7 +13,6 @@ import java.util.Date;
 
 /**
  * 活动背景 response
- * @Auther: 大粽子
  * @Date: 2023/1/9 16:17
  * @Description: 描述对应的业务场景
  */

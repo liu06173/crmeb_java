@@ -12,7 +12,6 @@ import java.util.Date;
 
 
 /**
- * @Auther: 大粽子
  * @Date: 2023/1/5 12:08
  * @Description: 活动样式搜索对象
  */

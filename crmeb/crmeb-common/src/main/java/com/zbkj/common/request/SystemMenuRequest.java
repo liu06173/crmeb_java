@@ -19,7 +19,6 @@ import java.util.Date;
  * 系统菜单请求对象
  * </p>
  *
- * @author HZW
  * @since 2021-11-17
  */
 @Data

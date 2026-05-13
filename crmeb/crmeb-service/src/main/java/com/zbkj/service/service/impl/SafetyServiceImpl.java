@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 行为验证码
  *
- * @author Han
  * @version 1.0.0
  * @Date 2025/6/12
  */

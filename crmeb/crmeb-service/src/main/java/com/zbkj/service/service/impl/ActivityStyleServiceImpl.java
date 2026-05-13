@@ -40,7 +40,6 @@ import java.util.stream.Collectors;
 /**
  * 活动样式
  *
- * @author dazongzi
  * @description ActivityStyleServiceImpl 接口实现
  * @date 2023-01-05
  */
@@ -64,7 +63,6 @@ public class ActivityStyleServiceImpl extends ServiceImpl<ActivityStyleDao, Acti
      * @param request          请求参数
      * @param pageParamRequest 分页类参数
      * @return List<ActivityStyle>
-     * @author dazongzi
      * @since 2023-01-05
      */
     @Override

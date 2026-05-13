@@ -10,7 +10,6 @@ import com.zbkj.common.response.page.PageDiyResponse;
 import java.util.List;
 
 /**
-* @author dazongzi
 * @description PageDiyService 接口
 * @date 2023-05-16
 */
@@ -18,7 +17,6 @@ public interface PageDiyService extends IService<PageDiy> {
 
     /**
      * 列表
-     * @author dazongzi
      * @since 2023-05-16
      * @return List<PageDiy>
      */

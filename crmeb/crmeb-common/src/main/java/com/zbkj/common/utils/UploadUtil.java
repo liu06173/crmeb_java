@@ -12,13 +12,9 @@ import java.io.IOException;
 /**
  * 上传工具类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 public class UploadUtil {
@@ -84,7 +80,6 @@ public class UploadUtil {
     /**
      * 根据文件的绝对路径创建一个文件对象.
      * @return 返回创建的这个文件对象
-     * @author Mr.Zhang
      * @since 2020-05-08
      */
     public static File createFile(String filePath) throws IOException {
@@ -111,7 +106,6 @@ public class UploadUtil {
     /**
      * 生成文件文件名
      * @param fileName 文件名
-     * @author Mr.Zhang
      * @since 2020-05-08
      */
     public static String getDestPath(String fileName) {
@@ -125,7 +119,6 @@ public class UploadUtil {
 
     /**
      * 生成文件在的实际的路径
-     * @author Mr.Zhang
      * @since 2020-05-08
      */
     public static String getServerPath() {
@@ -135,7 +128,6 @@ public class UploadUtil {
 
     /**
      * web目录可访问的路径
-     * @author Mr.Zhang
      * @since 2020-05-08
      */
     public static String getWebPath() {

@@ -3,7 +3,6 @@ package com.zbkj.common.result;
 /**
  * @ClassName IResultEnum
  * @Description 错误码接口 ErrCode
- * @Author HZW
  * @Date 2023/2/22 12:08
  * @Version 1.0
  */

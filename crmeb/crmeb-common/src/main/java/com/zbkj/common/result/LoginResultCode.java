@@ -7,7 +7,6 @@ import com.zbkj.common.exception.BusinessExceptionAssert;
 /**
  * @ClassName ResultCodeEnum
  * @Description 登录、注册、认证模块响应码枚举
- * @Author HZW
  * @Date 2023/2/21 16:10
  * @Version 1.0
  */

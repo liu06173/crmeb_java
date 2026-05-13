@@ -16,7 +16,6 @@ import java.io.Serializable;
  * 系统权限表
  * </p>
  *
- * @author HZW
  * @since 2021-11-17
  */
 @Data

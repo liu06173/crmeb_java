@@ -55,13 +55,9 @@ import java.util.stream.Collectors;
 /**
  * StoreOrderServiceImpl 接口实现
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -371,7 +367,6 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
     /**
      * 格式化订单信息，对外输出一致
      * @param storeOrderList List<StoreOrder> 订单列表
-     * @author Mr.Zhang
      * @since 2020-05-28
      * @return List<StoreOrderItemResponse>
      */
@@ -488,7 +483,6 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
     /**
      * 累计消费
      * @param userId Integer 用户id
-     * @author Mr.Zhang
      * @since 2020-06-10
      * @return UserBalanceResponse
      */
@@ -516,7 +510,6 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
      * 按开始结束时间分组订单
      * @param date String 时间范围
      * @param lefTime int 截取创建时间长度
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return HashMap<String, Object>
      */
@@ -685,7 +678,6 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
 
     /** 发送货物
      * @param request StoreOrderSendRequest 发货参数
-     * @author Mr.Zhang
      * @since 2020-06-10
      * @return boolean
      */
@@ -770,7 +762,6 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
     /**
      * 查询单条
      * @param storeOrder StoreOrder 订单参数
-     * @author Mr.Zhang
      * @since 2020-05-28
      * @return StoreOrder
      */
@@ -1872,7 +1863,6 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
     /** 送货上门
      * @param request StoreOrderSendRequest 发货参数
      * @param storeOrder StoreOrder 订单信息
-     * @author Mr.Zhang
      * @since 2020-06-10
      */
     private void delivery(StoreOrderSendRequest request, StoreOrder storeOrder) {
@@ -1976,7 +1966,6 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
     /** 虚拟
      * @param request StoreOrderSendRequest 发货参数
      * @param storeOrder StoreOrder 订单信息
-     * @author Mr.Zhang
      * @since 2020-06-10
      */
     private void virtual(StoreOrderSendRequest request, StoreOrder storeOrder) {
@@ -2214,7 +2203,6 @@ public class StoreOrderServiceImpl extends ServiceImpl<StoreOrderDao, StoreOrder
     /**
      * 获取订单状态
      * @param storeOrder StoreOrder 订单信息
-     * @author Mr.Zhang
      * @since 2020-06-12
      */
     private Map<String, String> getStatus(StoreOrder storeOrder) {

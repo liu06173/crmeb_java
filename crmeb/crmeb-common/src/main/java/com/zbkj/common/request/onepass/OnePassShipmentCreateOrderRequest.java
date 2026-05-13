@@ -9,7 +9,6 @@ import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**
- * @Auther: 大粽子
  * @Date: 2023/8/26 15:09
  * @Description: 一号通 创建商家寄件
  */

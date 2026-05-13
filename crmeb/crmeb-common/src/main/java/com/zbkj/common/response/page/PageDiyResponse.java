@@ -15,7 +15,6 @@ import java.util.Date;
  * DIY数据表
  * </p>
  *
- * @author dazongzi
  * @since 2023-05-16
  */
 @Data

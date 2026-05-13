@@ -5,7 +5,6 @@ import org.apache.commons.lang3.StringUtils;
 
 /** 易联云打印商品详情
  * @program: crmeb
- * @author: 大粽子
  * @create: 2021-11-27 10:56
  **/
 @Data

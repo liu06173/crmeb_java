@@ -23,7 +23,6 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author HZW
  * @description ScheduleJobLogServiceImpl 接口实现
  * @date 2021-11-30
  */

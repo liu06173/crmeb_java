@@ -42,13 +42,9 @@ import java.util.stream.Collectors;
 /**
  * StoreCouponServiceImpl 接口实现
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -103,7 +99,6 @@ public class StoreCouponServiceImpl extends ServiceImpl<StoreCouponDao, StoreCou
     /**
      * 保存优惠券表
      * @param request StoreCouponRequest 新增参数
-     * @author Mr.Zhang
      * @since 2020-05-18
      */
     @Override
@@ -160,7 +155,6 @@ public class StoreCouponServiceImpl extends ServiceImpl<StoreCouponDao, StoreCou
     /**
      * 检测当前优惠券是否正常
      * @param storeCoupon StoreCoupon 优惠券对象`
-     * @author Mr.Zhang
      * @since 2020-05-18
      */
     private void checkException(StoreCoupon storeCoupon) {

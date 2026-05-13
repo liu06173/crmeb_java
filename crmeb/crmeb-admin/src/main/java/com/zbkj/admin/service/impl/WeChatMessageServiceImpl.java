@@ -27,13 +27,9 @@ import java.util.Map;
 /**
  * 用户中心 服务实现类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Data
@@ -81,7 +77,6 @@ public class WeChatMessageServiceImpl implements WeChatMessageService {
     /**
      * 处理微信推送过来的消息，并且组装成需要发送的数据，二次处理
      * @param request HttpServletRequest request请求
-     * @author Mr.Zhang
      * @since 2020-06-03
      * @return String
      */
@@ -114,7 +109,6 @@ public class WeChatMessageServiceImpl implements WeChatMessageService {
 
     /**
      * 匹配关键字并且组装xml数据
-     * @author Mr.Zhang
      * @since 2020-06-03
      * @return String
      */
@@ -144,7 +138,6 @@ public class WeChatMessageServiceImpl implements WeChatMessageService {
     /**
      * 组装文章消息
      * @param articleId Integer 文章id
-     * @author Mr.Zhang
      * @since 2020-06-03
      * @return MessageVoiceVo
      */
@@ -174,7 +167,6 @@ public class WeChatMessageServiceImpl implements WeChatMessageService {
 
     /**
      * 处理不同的消息类型
-     * @author Mr.Zhang
      * @since 2020-06-03
      */
     private void getReplyByContent() {

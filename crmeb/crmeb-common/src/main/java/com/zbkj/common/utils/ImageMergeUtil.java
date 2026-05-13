@@ -17,13 +17,9 @@ import java.util.List;
 
 /**
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  * 图片工具类
  */
@@ -37,7 +33,6 @@ public class ImageMergeUtil {
     /**
      * 合并生成新的图片文件
      * @param list List<ImageMergeUtilVo> 图片集合
-     * @author Mr.Zhang
      * @since 2020-05-06
      */
     public static String drawWordFile(List<ImageMergeUtilVo> list){
@@ -93,7 +88,6 @@ public class ImageMergeUtil {
     /**
      * 合并生成新的图片流
      * @param list List<ImageMergeUtilVo> 图片集合
-     * @author Mr.Zhang
      * @since 2020-05-06
      */
     private static void buildImage(List<ImageMergeUtilVo> list){
@@ -111,7 +105,6 @@ public class ImageMergeUtil {
     /**
      * 根据图片路径输出File流
      * @param url String 文件地址
-     * @author Mr.Zhang
      * @since 2020-05-06
      */
     private static String getFileSource(String url){

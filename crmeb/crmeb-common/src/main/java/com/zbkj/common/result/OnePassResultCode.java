@@ -7,7 +7,6 @@ import com.zbkj.common.exception.BusinessExceptionAssert;
 /**
  * @ClassName CouponResultCode
  * @Description 优惠券模块响应码
- * @Author HZW
  * @Date 2023/5/17 9:17
  * @Version 1.0
  */

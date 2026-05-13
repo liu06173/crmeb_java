@@ -48,13 +48,9 @@ import static java.math.BigDecimal.ZERO;
 /**
  * UserExtractServiceImpl 接口实现
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -85,7 +81,6 @@ public class UserExtractServiceImpl extends ServiceImpl<UserExtractDao, UserExtr
      * @param request          请求参数
      * @param pageParamRequest 分页类参数
      * @return List<UserExtract>
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     @Override
@@ -177,7 +172,6 @@ public class UserExtractServiceImpl extends ServiceImpl<UserExtractDao, UserExtr
      * 提现总金额
      *
      * @return BalanceResponse
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     @Override
@@ -189,7 +183,6 @@ public class UserExtractServiceImpl extends ServiceImpl<UserExtractDao, UserExtr
      * 审核中总金额
      *
      * @return BalanceResponse
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     private BigDecimal getWithdrawning(String startTime, String endTime) {

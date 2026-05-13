@@ -6,7 +6,6 @@ import lombok.Data;
 import javax.validation.constraints.NotNull;
 
 /**
- * @Auther: 大粽子
  * @Date: 2023/8/26 15:40
  * @Description: 一号通 取消商家寄件
  */

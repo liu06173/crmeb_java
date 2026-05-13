@@ -117,13 +117,9 @@
 
 <script>
 	// +----------------------------------------------------------------------
-	// | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
 	// +----------------------------------------------------------------------
-	// | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
 	// +----------------------------------------------------------------------
-	// | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
 	// +----------------------------------------------------------------------
-	// | Author: CRMEB Team <admin@crmeb.com>
 	// +----------------------------------------------------------------------
 	import tuiSkeleton from '@/components/base/tui-skeleton.vue';
 	import Cache from '../../utils/cache';
@@ -520,7 +516,7 @@
 			},
 			xieyiApp() {
 				uni.navigateTo({
-					url: '/pages/users/web_page/index?webUel=https://admin.java.crmeb.net/useragreement/xieyi.html&title=协议内容'
+					url: '/pages/users/web_page/index?webUel=&title=协议内容'
 				})
 			},
 			// #ifdef APP-PLUS
@@ -528,7 +524,7 @@
 				uni.navigateTo({
 					animationType: animationType.type,
 					animationDuration: animationType.duration,
-					url: '/pages/users/web_page/index?webUel=https://admin.java.crmeb.net/useragreement/xieyi.html&title=协议内容'
+					url: '/pages/users/web_page/index?webUel=&title=协议内容'
 				})
 			},
 			// #endif

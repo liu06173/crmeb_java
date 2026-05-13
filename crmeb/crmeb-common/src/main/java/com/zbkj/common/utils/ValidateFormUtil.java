@@ -12,20 +12,15 @@ import java.util.regex.Pattern;
 /**
  * 表单验证类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 public class ValidateFormUtil {
     /**
      * 检测类型
      * @param systemConfig SystemConfig 需要验证的类
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static void checkType(SystemConfig systemConfig, String rule){
@@ -80,7 +75,6 @@ public class ValidateFormUtil {
      * 邮箱
      * @param value String 值
      * @param info String 字段名
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static void isEmail(String value, String info) {
@@ -100,7 +94,6 @@ public class ValidateFormUtil {
      * 验证必填
      * @param value String 值
      * @param info String 字段名
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static void isRequire(String value, String info){
@@ -113,7 +106,6 @@ public class ValidateFormUtil {
      * 数字验证
      * @param value String 值
      * @param info String 字段名
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static void isNumber(String value, String info){
@@ -124,7 +116,6 @@ public class ValidateFormUtil {
      * 数字范围
      * @param value String 值
      * @param info String 字段名
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static void range(String value, String info, Integer max, Integer min){
@@ -137,7 +128,6 @@ public class ValidateFormUtil {
      * 最大数值
      * @param value String 值
      * @param info String 字段名
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static void max(String value, String info, Integer max){
@@ -152,7 +142,6 @@ public class ValidateFormUtil {
      * 最小数值
      * @param value String 值
      * @param info String 字段名
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static void min(String value, String info, Integer min){
@@ -168,7 +157,6 @@ public class ValidateFormUtil {
      * @param value String 值
      * @param info String 字段名
      * @param regular String 正则表达式
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static void regularException(String value, String info, String regular, String title){
@@ -183,7 +171,6 @@ public class ValidateFormUtil {
      * @param value String 值
      * @param info String 字段名
      * @param regular String 正则表达式
-     * @author Mr.Zhang
      * @since 2020-05-11
      */
     public static boolean regular(String value, String info, String regular){

@@ -12,7 +12,6 @@ import com.zbkj.common.response.ActivityStyleResponse;
 import java.util.List;
 
 /**
-* @author dazongzi
 * @description ActivityStyleService 接口
 * @date 2023-01-05
 */

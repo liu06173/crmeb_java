@@ -9,7 +9,6 @@ import org.springframework.context.ApplicationEventPublisher;
 /**
  * 该类将会被org.springframework.scheduling.quartz.SpringBeanJobFactory 实例化
  * 并使@Autowired 生效
- * @Author 指缝de阳光
  * @Date 2021/11/30 12:10
  * @Version 1.0
  */

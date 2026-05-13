@@ -10,7 +10,6 @@ import java.util.List;
  * 系统菜单表 Mapper 接口
  * </p>
  *
- * @author HZW
  * @since 2021-11-17
  */
 public interface SystemMenuDao extends BaseMapper<SystemMenu> {

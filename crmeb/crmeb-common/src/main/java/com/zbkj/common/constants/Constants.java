@@ -3,13 +3,9 @@ package com.zbkj.common.constants;
 /**
  *  配置类
  *  +----------------------------------------------------------------------
- *  | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  *  +----------------------------------------------------------------------
- *  | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  *  +----------------------------------------------------------------------
- *  | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  *  +----------------------------------------------------------------------
- *  | Author: CRMEB Team <admin@crmeb.com>
  *  +----------------------------------------------------------------------
  */
 public class Constants {
@@ -577,8 +573,8 @@ public class Constants {
     public static final String CONFIG_FORM_SWITCH_OPEN = "'1'";
 
     /** 公共JS配置 */
-    // CRMEB chat 统计
-    public  static final String JS_CONFIG_CRMEB_CHAT_TONGJI = "crmeb_tongji_js";
+    // chat 统计
+    public  static final String JS_CONFIG_CHAT_TONGJI = "chat_tongji_js";
 
     /** 小程序源码包文件名 */
     public static final String WECHAT_SOURCE_CODE_FILE_NAME = "/mp-weixin-target.zip";

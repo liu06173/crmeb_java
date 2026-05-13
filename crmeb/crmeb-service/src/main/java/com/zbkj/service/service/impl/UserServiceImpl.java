@@ -47,13 +47,9 @@ import java.util.stream.Collectors;
 /**
  * 用户表 服务实现类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -375,7 +371,6 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
      * 用户id in list
      *
      * @param uidList List<Integer> id
-     * @author Mr.Zhang
      * @since 2020-04-28
      */
     private List<User> getListInUid(List<Integer> uidList) {
@@ -408,7 +403,6 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
      * 获取个人资料
      *
      * @return User
-     * @author Mr.Zhang
      * @since 2020-04-28
      */
     @Override
@@ -423,7 +417,6 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
      * 获取个人资料
      *
      * @return User
-     * @author Mr.Zhang
      * @since 2020-04-28
      */
     @Override
@@ -457,7 +450,6 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
      * 获取当前用户id
      *
      * @return Integer
-     * @author Mr.Zhang
      * @since 2020-04-28
      */
     @Override
@@ -605,7 +597,6 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
      * 根据用户id获取用户列表 map模式
      *
      * @return HashMap<Integer, User>
-     * @author Mr.Zhang
      * @since 2020-04-28
      */
     private HashMap<Integer, User> getMapByList(List<User> list) {
@@ -625,7 +616,6 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
      * 重置连续签到天数
      *
      * @param userId Integer 用户id
-     * @author Mr.Zhang
      * @since 2020-04-28
      */
     @Override

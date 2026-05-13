@@ -27,13 +27,9 @@ import java.util.stream.Collectors;
 /**
  * SystemCityServiceImpl 接口实现
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -66,7 +62,6 @@ public class SystemCityServiceImpl extends ServiceImpl<SystemCityDao, SystemCity
     /**
      * 根据父级id获取数据
      * @param parentId integer parentId
-     * @author Mr.Zhang
      * @since 2020-04-17
      * @return Object
      */
@@ -160,7 +155,6 @@ public class SystemCityServiceImpl extends ServiceImpl<SystemCityDao, SystemCity
 
     /**
      * 数据整体刷入redis
-     * @author Mr.Zhang
      * @since 2020-05-18
      */
     public void asyncRedis(Integer pid) {
@@ -169,7 +163,6 @@ public class SystemCityServiceImpl extends ServiceImpl<SystemCityDao, SystemCity
 
     /**
      * 根据城市名称获取城市详细数据
-     * @author 大粽子
      * @param cityName 城市名称
      * @return 城市数据
      */

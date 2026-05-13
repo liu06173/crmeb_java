@@ -10,7 +10,6 @@ import java.io.Serializable;
 
 /**
  * @program: crmeb
- * @author: 大粽子
  * @create: 2021-10-27 10:38
  **/
 @Data

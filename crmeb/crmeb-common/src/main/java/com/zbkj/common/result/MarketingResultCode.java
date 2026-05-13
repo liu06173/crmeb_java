@@ -7,7 +7,6 @@ import com.zbkj.common.exception.BusinessExceptionAssert;
 /**
  * @ClassName MarketingResultCode
  * @Description 营销模块响应码
- * @Author HZW
  * @Date 2023/5/17 9:17
  * @Version 1.0
  */

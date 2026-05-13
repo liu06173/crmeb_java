@@ -19,7 +19,6 @@ import java.util.Date;
  * 活动气氛样式，包含活动边框和活动背景
  * </p>
  *
- * @author dazongzi
  * @since 2023-01-05
  */
 @Data

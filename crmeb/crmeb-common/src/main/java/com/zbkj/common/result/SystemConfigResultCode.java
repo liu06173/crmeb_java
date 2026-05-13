@@ -7,7 +7,6 @@ import com.zbkj.common.exception.BusinessExceptionAssert;
 /**
  * @ClassName SystemFormResultCode
  * @Description 系统设置响应码枚举
- * @Author HZW
  * @Date 2023/3/4 11:12
  * @Version 1.0
  */

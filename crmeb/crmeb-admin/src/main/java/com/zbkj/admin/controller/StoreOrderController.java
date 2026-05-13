@@ -24,13 +24,9 @@ import java.util.List;
 /**
  * 订单表 前端控制器
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Slf4j
@@ -179,7 +175,6 @@ public class StoreOrderController {
     /**
      * 核销订单头部数据
      *
-     * @author stivepeim
      * @since 2020-08-29
      */
     @PreAuthorize("hasAuthority('admin:order:statistics')")
@@ -192,7 +187,6 @@ public class StoreOrderController {
     /**
      * 核销订单 月列表数据
      *
-     * @author stivepeim
      * @since 2020-08-29
      */
     @PreAuthorize("hasAuthority('admin:order:statistics:data')")
@@ -206,7 +200,6 @@ public class StoreOrderController {
     /**
      * 核销码核销订单
      *
-     * @author stivepeim
      * @since 2020-09-01
      */
     @PreAuthorize("hasAuthority('admin:order:write:update')")
@@ -219,7 +212,6 @@ public class StoreOrderController {
     /**
      * 核销码查询待核销订单
      *
-     * @author stivepeim
      * @since 2020-09-01
      */
     @PreAuthorize("hasAuthority('admin:order:write:confirm')")
@@ -233,7 +225,6 @@ public class StoreOrderController {
     /**
      * 订单统计详情
      *
-     * @author stivepeim
      * @since 2020-09-01
      */
     @PreAuthorize("hasAuthority('admin:order:time')")

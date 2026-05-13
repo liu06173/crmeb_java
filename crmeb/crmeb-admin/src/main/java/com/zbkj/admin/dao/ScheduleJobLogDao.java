@@ -8,7 +8,6 @@ import com.zbkj.admin.model.ScheduleJobLog;
  * 定时任务日志 Mapper 接口
  * </p>
  *
- * @author HZW
  * @since 2021-11-30
  */
 public interface ScheduleJobLogDao extends BaseMapper<ScheduleJobLog> {

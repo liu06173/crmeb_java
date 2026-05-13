@@ -2,7 +2,6 @@
   <div>
     <iframe
       ref="iframes"
-      src="https://api.crmeb.com/"
       width="100%"
       :height="iframeHeight"
       style="border: none"

@@ -43,13 +43,9 @@ import java.util.stream.Collectors;
 /**
  * StorePinkService 实现类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -84,7 +80,6 @@ public class StorePinkServiceImpl extends ServiceImpl<StorePinkDao, StorePink> i
     * 列表
     * @param request 请求参数
     * @param pageParamRequest 分页类参数
-    * @author HZW
     * @since 2020-11-13
     * @return List<StorePink>
     */

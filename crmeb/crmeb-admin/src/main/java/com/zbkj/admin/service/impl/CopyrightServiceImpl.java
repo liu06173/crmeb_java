@@ -20,13 +20,9 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 版权服务实现类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -40,11 +36,11 @@ public class CopyrightServiceImpl implements CopyrightService {
     private RestTemplateUtil restTemplateUtil;
 
 
-    private static final String CRMEB_COPYRIGHT_URL = "https://authorize.crmeb.net/api/auth_cert_query?domain_name={}&label={}&version={}";
-    private static final String CRMEB_COPYRIGHT_URL_DATA = "data";
-    private static final String CRMEB_COPYRIGHT_URL_STATUS = "status";
-    private static final String CRMEB_COPYRIGHT_URL_COPYRIGHT = "copyright";
-    private static final String CRMEB_COPYRIGHT_URL_AUTHCODE = "auth_code";
+    private static final String COPYRIGHT_URL = "";
+    private static final String COPYRIGHT_URL_DATA = "data";
+    private static final String COPYRIGHT_URL_STATUS = "status";
+    private static final String COPYRIGHT_URL_COPYRIGHT = "copyright";
+    private static final String COPYRIGHT_URL_AUTHCODE = "auth_code";
 
 
     /**
@@ -67,19 +63,18 @@ public class CopyrightServiceImpl implements CopyrightService {
         response.setLabel(Integer.parseInt(label));
         response.setVersion(version);
 
-        JSONObject jsonObject = restTemplateUtil.post(StrUtil.format(CRMEB_COPYRIGHT_URL, domainName, label, version));
+        JSONObject jsonObject = restTemplateUtil.post(StrUtil.format(COPYRIGHT_URL, domainName, label, version));
         if (ObjectUtil.isNull(jsonObject.getInteger("status")) || !jsonObject.getInteger("status").equals(200)) {
-            throw new CrmebException("CRMEB版权接口调用失败," + jsonObject);
+            throw new CrmebException("版权接口调用失败," + jsonObject);
         }
-        System.out.println("==================================== " + jsonObject.toString());
-        JSONObject dataJson = jsonObject.getJSONObject(CRMEB_COPYRIGHT_URL_DATA);
+        JSONObject dataJson = jsonObject.getJSONObject(COPYRIGHT_URL_DATA);
 
-        response.setStatus(dataJson.getInteger(CRMEB_COPYRIGHT_URL_STATUS));
-        response.setCopyright(dataJson.getString(CRMEB_COPYRIGHT_URL_COPYRIGHT));
-        if (!dataJson.getInteger(CRMEB_COPYRIGHT_URL_STATUS).equals(1)) {
+        response.setStatus(dataJson.getInteger(COPYRIGHT_URL_STATUS));
+        response.setCopyright(dataJson.getString(COPYRIGHT_URL_COPYRIGHT));
+        if (!dataJson.getInteger(COPYRIGHT_URL_STATUS).equals(1)) {
             return response;
         }
-        response.setAuthCode(dataJson.getString(CRMEB_COPYRIGHT_URL_AUTHCODE));
+        response.setAuthCode(dataJson.getString(COPYRIGHT_URL_AUTHCODE));
         response.setCompanyName(systemConfigService.getValueByKey(SysConfigConstants.CONFIG_COPYRIGHT_COMPANY_INFO));
         response.setCompanyImage(systemConfigService.getValueByKey(SysConfigConstants.CONFIG_COPYRIGHT_COMPANY_IMAGE));
         return response;

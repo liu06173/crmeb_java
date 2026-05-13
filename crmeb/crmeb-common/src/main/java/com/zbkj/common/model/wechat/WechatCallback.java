@@ -17,7 +17,6 @@ import java.util.Date;
  * 微信回调表
  * </p>
  *
- * @author HZW
  * @since 2021-05-19
  */
 @Data

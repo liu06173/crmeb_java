@@ -28,13 +28,9 @@ import java.util.concurrent.TimeUnit;
 /**
 * ExpressServiceImpl 接口实现
 *  +----------------------------------------------------------------------
- *  | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  *  +----------------------------------------------------------------------
- *  | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  *  +----------------------------------------------------------------------
- *  | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  *  +----------------------------------------------------------------------
- *  | Author: CRMEB Team <admin@crmeb.com>
  *  +----------------------------------------------------------------------
 */
 @Data
@@ -63,7 +59,6 @@ public class LogisticsServiceImpl implements LogisticService {
      * @param expressNo String 物流单号
      * @param type String 快递公司字母简写：不知道可不填 95%能自动识别，填写查询速度会更快 https://market.aliyun.com/products/56928004/cmapi021863.html#sku=yuncode15863000015
      * @param com 快递公司编号
-     * @author Mr.Zhang
      * @since 2020-06-10
      * @return Express
      */
@@ -135,7 +130,6 @@ public class LogisticsServiceImpl implements LogisticService {
     }
 
     /** 获取快递缓存
-     * @author Mr.Zhang
      * @since 2020-07-06
      * @return JSONObject
      */
@@ -149,7 +143,6 @@ public class LogisticsServiceImpl implements LogisticService {
 
     /** 获取快递缓存
      * @param data JSONObject 需要保存的数据
-     * @author Mr.Zhang
      * @since 2020-07-06
      */
     private void saveCache(JSONObject data) {
@@ -158,7 +151,6 @@ public class LogisticsServiceImpl implements LogisticService {
 
     /** 获取快递缓存
      * @param data JSONObject 检测返回的结果
-     * @author Mr.Zhang
      * @since 2020-07-06
      */
     private void checkResult(JSONObject data) {

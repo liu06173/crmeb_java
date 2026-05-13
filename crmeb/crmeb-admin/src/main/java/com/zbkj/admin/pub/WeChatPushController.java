@@ -19,13 +19,9 @@ import java.util.Map;
 /**
  * 后台管理员表 前端控制器
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Slf4j
@@ -43,7 +39,6 @@ public class WeChatPushController {
     /**
      * 新增后台管理员表
      * @param message string message
-     * @author Mr.Zhang
      * @since 2020-04-13
      */
     @ApiOperation(value = "gitlab钩子")
@@ -121,7 +116,6 @@ public class WeChatPushController {
     /**
      * 新增后台管理员表
      * @param message string message
-     * @author Mr.Zhang
      * @since 2020-04-13
      */
     @ApiOperation(value = "消息推送")

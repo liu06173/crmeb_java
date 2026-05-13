@@ -36,13 +36,9 @@ import java.util.stream.Collectors;
 /**
  * CategoryServiceImpl 接口实现
 *  +----------------------------------------------------------------------
- *  | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  *  +----------------------------------------------------------------------
- *  | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  *  +----------------------------------------------------------------------
- *  | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  *  +----------------------------------------------------------------------
- *  | Author: CRMEB Team <admin@crmeb.com>
  *  +----------------------------------------------------------------------
 */
 @Service
@@ -58,7 +54,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 获取分类下子类的数量
      * @param request 请求参数
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return List<Category>
      */
@@ -84,7 +79,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 通过id集合获取列表
      * @param idList List<Integer> id集合
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return List<Category>
      */
@@ -110,7 +104,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 通过id集合获取列表 id => name
      * @param cateIdList List<Integer> id集合
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return HashMap<Integer, String>
      */
@@ -127,7 +120,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
 
     /**
      * 查询id和url是否存在
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return Boolean
      */
@@ -147,7 +139,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
      * 修改
      * @param request CategoryRequest
      * @param id Integer
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return bool
      */
@@ -181,7 +172,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 开启父级状态
      * @param id Integer
-     * @author Mr.Zhang
      * @since 2020-04-16
      */
     private void updatePidStatusById(Integer id) {
@@ -205,7 +195,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 获取分类下子类的数量
      * @param pid Integer
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return bool
      */
@@ -219,7 +208,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 修改分类以及子类的状态
      * @param pid Integer
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return bool
      */
@@ -243,7 +231,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
 
     /**
      * 带结构的无线级分类
-     * @author Mr.Zhang
      * @since 2020-04-16
      */
     @Override
@@ -262,7 +249,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
 
     /**
      * 带结构的无线级分类
-     * @author Mr.Zhang
      * @since 2020-04-16
      */
     private List<CategoryTreeVo> getTree(Integer type, Integer status,String name, List<Integer> categoryIdList) {
@@ -335,7 +321,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 删除分类表
      * @param id Integer
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return bool
      */
@@ -352,7 +337,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 获取分类下子类
      * @param pid Integer
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return List<Category>
      */
@@ -385,7 +369,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
      * @param name String 分类名
      * @param type int 类型
      * @param path String 路径
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return int
      */
@@ -402,7 +385,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, Category> impl
     /**
      * 检测url是否存在
      * @param uri String url
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return int
      */

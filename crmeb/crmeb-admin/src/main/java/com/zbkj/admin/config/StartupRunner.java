@@ -37,7 +37,7 @@ public class StartupRunner implements CommandLineRunner {
         try {
             String version = crmebConfig.getVersion();
             if (StrUtil.isBlank(version) ) {
-                version = "CRMEB-JAVA-KY-EDIT";
+                version = "v1.4";
             }
             String apiUrl = systemConfigService.getValueByKey(SysConfigConstants.CONFIG_KEY_API_URL);
             if (StrUtil.isBlank(apiUrl) || !(StrUtil.startWithIgnoreCase(apiUrl, "http"))) {
@@ -47,7 +47,7 @@ public class StartupRunner implements CommandLineRunner {
             map.put("host", apiUrl);
             map.put("version", version);
             map.put("https", "https");
-            String result = HttpUtil.post("https://shop.crmeb.net/index.php/admin/server.upgrade_api/updatewebinfo", JSONObject.toJSONString(map));
+            String result = HttpUtil.post("", JSONObject.toJSONString(map));
 
         } catch (Exception e) {
             // 异步调用不应影响主流程

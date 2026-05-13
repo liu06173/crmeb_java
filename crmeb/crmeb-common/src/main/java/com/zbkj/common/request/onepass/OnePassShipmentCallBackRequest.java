@@ -4,7 +4,6 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
- * @Auther: 大粽子
  * @Date: 2023/8/28 09:38
  * @Description: 一号通 商家寄件 回调对象
  */

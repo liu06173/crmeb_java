@@ -7,7 +7,6 @@ import com.zbkj.common.exception.BusinessExceptionAssert;
 /**
  * @ClassName AdminResultCode
  * @Description 管理员模块响应状态码
- * @Author HZW
  * @Date 2023/3/7 12:20
  * @Version 1.0
  */

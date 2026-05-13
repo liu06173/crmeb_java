@@ -15,13 +15,9 @@ import java.util.*;
 /**
  * 用户表 服务实现类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -50,7 +46,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 用户曲线图
-     * @author Mr.Zhang
      * @since 2020-05-16
      */
     @Override
@@ -60,7 +55,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 订单量趋势
-     * @author Mr.Zhang
      * @since 2020-05-16
      */
     @Override
@@ -81,7 +75,6 @@ public class HomeServiceImpl implements HomeService {
     /**
      * 按开始结束时间查询每日新增订单数量
      * @param list List<StoreOrder> 时间范围
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return HashMap<String, Object>
      */
@@ -102,7 +95,6 @@ public class HomeServiceImpl implements HomeService {
     /**
      * 按开始结束时间查询每日新增订单销售额
      * @param list List<StoreOrder> 时间范围
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return HashMap<String, Object>
      */
@@ -122,7 +114,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 日期和数量格式化
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return Map<String, Integer>
      */
@@ -164,7 +155,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 日期和数量格式化
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return Map<String, Integer>
      */
@@ -206,7 +196,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 用户购买统计
-     * @author Mr.Zhang
      * @since 2020-05-16
      */
     @Override
@@ -229,7 +218,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 周订单量趋势
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return Map<String, Object>
      */
@@ -242,7 +230,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 月订单量趋势
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return Map<String, Object>
      */
@@ -253,7 +240,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 年订单量趋势
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return Map<String, Object>
      */
@@ -333,7 +319,6 @@ public class HomeServiceImpl implements HomeService {
 
     /**
      * 组装订单统计返回数据
-     * @author Mr.Zhang
      * @since 2020-05-16
      * @return Map<String, Object>
      */

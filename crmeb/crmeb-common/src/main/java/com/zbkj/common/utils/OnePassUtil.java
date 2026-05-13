@@ -6,7 +6,6 @@ import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
 
 /**
- * @Auther: 大粽子
  * @Date: 2023/8/29 12:14
  * @Description: 描述对应的业务场景
  */

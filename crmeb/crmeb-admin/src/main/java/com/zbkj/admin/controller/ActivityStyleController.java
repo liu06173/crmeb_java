@@ -44,7 +44,6 @@ public class ActivityStyleController {
      *
      * @param request          搜索条件
      * @param pageParamRequest 分页参数
-     * @author dazongzi
      * @since 2023-01-05
      */
     @PreAuthorize("hasAuthority('admin:activitystyle:list')")
@@ -60,7 +59,6 @@ public class ActivityStyleController {
      * 新增
      *
      * @param activityStyleRequest 新增参数
-     * @author dazongzi
      * @since 2023-01-05
      */
     @PreAuthorize("hasAuthority('admin:activitystyle:save')")
@@ -83,7 +81,6 @@ public class ActivityStyleController {
      * 删除
      *
      * @param id Integer
-     * @author dazongzi
      * @since 2023-01-05
      */
     @PreAuthorize("hasAuthority('admin:activitystyle:delete')")
@@ -101,7 +98,6 @@ public class ActivityStyleController {
      * 修改
      *
      * @param activityStyleRequest 修改参数
-     * @author dazongzi
      * @since 2023-01-05
      */
     @PreAuthorize("hasAuthority('admin:activitystyle:edite')")

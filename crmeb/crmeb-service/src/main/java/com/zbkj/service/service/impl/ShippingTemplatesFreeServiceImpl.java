@@ -24,13 +24,9 @@ import java.util.stream.Collectors;
 /**
  * ShippingTemplatesFreeServiceImpl 接口实现
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -98,7 +94,6 @@ public class ShippingTemplatesFreeServiceImpl extends ServiceImpl<ShippingTempla
      * 获取所有城市cityId
      *
      * @return List<Integer>
-     * @author Mr.Zhang
      * @since 2020-04-16
      */
     private List<Integer> getCityIdList() {
@@ -112,7 +107,6 @@ public class ShippingTemplatesFreeServiceImpl extends ServiceImpl<ShippingTempla
      * 把模板下的所有数据标记为无效
      *
      * @param tempId Integer 运费模板id
-     * @author Mr.Zhang
      * @since 2020-05-20
      */
     private void updateStatus(Integer tempId) {

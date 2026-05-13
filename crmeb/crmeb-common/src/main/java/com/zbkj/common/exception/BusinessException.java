@@ -5,7 +5,6 @@ import com.zbkj.common.result.IResultEnum;
 /**
  * @ClassName BusinessException
  * @Description 业务异常类
- * @Author HZW
  * @Date 2023/2/22 12:34
  * @Version 1.0
  */

@@ -17,7 +17,6 @@ import java.util.Date;
  * 页面链接分类
  * </p>
  *
- * @author dazongzi
  * @since 2023-05-16
  */
 @Data

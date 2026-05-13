@@ -38,13 +38,9 @@ import java.util.List;
 /**
  * UserSignServiceImpl 接口实现
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -321,7 +317,6 @@ public class UserSignServiceImpl extends ServiceImpl<UserSignDao, UserSign> impl
      *
      * @param userId Integer 用户id
      * @return UserSignInfoResponse
-     * @author Mr.Zhang
      * @since 2020-05-29
      */
     private Boolean checkDaySign(Integer userId) {
@@ -334,7 +329,6 @@ public class UserSignServiceImpl extends ServiceImpl<UserSignDao, UserSign> impl
      *
      * @param userId Integer 用户id
      * @return UserSignInfoResponse
-     * @author Mr.Zhang
      * @since 2020-05-29
      */
     private Boolean checkYesterdaySign(Integer userId) {
@@ -350,7 +344,6 @@ public class UserSignServiceImpl extends ServiceImpl<UserSignDao, UserSign> impl
      * @param userId Integer 用户id
      * @param date   Date 日期
      * @return UserSignInfoResponse
-     * @author Mr.Zhang
      * @since 2020-05-29
      */
     private List<UserSign> getInfoByDay(Integer userId, String date) {
@@ -364,7 +357,6 @@ public class UserSignServiceImpl extends ServiceImpl<UserSignDao, UserSign> impl
      *
      * @param userId Integer 用户id
      * @return UserSignInfoResponse
-     * @author Mr.Zhang
      * @since 2020-05-29
      */
     private Integer getCount(Integer userId) {
@@ -392,7 +384,6 @@ public class UserSignServiceImpl extends ServiceImpl<UserSignDao, UserSign> impl
      *
      * @param userId Integer 用户id
      * @return Integer
-     * @author Mr.Zhang
      * @since 2020-04-30
      */
     private Integer signCount(Integer userId) {

@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * 定时任务工具类
- * @Author 指缝de阳光
  * @Date 2021/11/30 12:16
  * @Version 1.0
  */

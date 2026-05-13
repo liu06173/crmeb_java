@@ -15,13 +15,9 @@ import java.util.Random;
 /**
  * 验证码生成工具类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Component
@@ -37,7 +33,6 @@ public class ValidateCodeUtil {
 
     /**
      * 将构造函数私有化 禁止new创建
-     * @author Mr.Zhang
      * @since 2020-04-16
      */
     private ValidateCodeUtil() {
@@ -46,7 +41,6 @@ public class ValidateCodeUtil {
 
     /**
      * 获取随机字符
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return String
      */
@@ -59,7 +53,6 @@ public class ValidateCodeUtil {
      * 获取随机指定区间的随机数
      * @param min (指定最小数)
      * @param max (指定最大数)
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return String
      */
@@ -78,7 +71,6 @@ public class ValidateCodeUtil {
      * 获得颜色
      * @param frontColor 覆盖颜色
      * @param backColor 背景色
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return Color
      */
@@ -99,7 +91,6 @@ public class ValidateCodeUtil {
      * @param graphics 获得BufferedImage对象的Graphics对象
      * @param randomString 随机字符串
      * @param i 坐标倍数
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return string
      */
@@ -120,7 +111,6 @@ public class ValidateCodeUtil {
     /**
      * 绘制干扰线
      * @param graphics 获得BufferedImage对象的Graphics对象
-     * @author Mr.Zhang
      * @since 2020-04-16
      */
     private static void drawLine(Graphics graphics) {
@@ -135,7 +125,6 @@ public class ValidateCodeUtil {
 
     /**
      * 生成Base64图片验证码
-     * @author Mr.Zhang
      * @since 2020-04-16
      * @return String
      */
@@ -182,7 +171,6 @@ public class ValidateCodeUtil {
 
     /**
      * 验证码类
-     * @author Mr.Zhang
      * @since 2020-04-16
      */
     public static class Validate implements Serializable{

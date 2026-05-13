@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @program: crmeb
- * @author: 大粽子
- * @create: 2021-09-23 09:18
- **/
 @Slf4j
 @RestController
 @RequestMapping("api/public/jsconfig")
@@ -26,11 +21,11 @@ public class GetJSConfig {
     @Autowired
     private SystemConfigService systemConfigService;
 
-    @PreAuthorize("hasAuthority('public:jsconfig:getcrmebchatconfig')")
-    @ApiOperation(value = "CRMEB-chat客服统计")
-    @RequestMapping(value = "/getcrmebchatconfig", method = RequestMethod.GET)
+    @PreAuthorize("hasAuthority('public:jsconfig:getchatchatconfig')")
+    @ApiOperation(value = "客服统计")
+    @RequestMapping(value = "/getchatchatconfig", method = RequestMethod.GET)
     public String set(){
-        return systemConfigService.getValueByKey(Constants.JS_CONFIG_CRMEB_CHAT_TONGJI);
+        return systemConfigService.getValueByKey(Constants.JS_CONFIG_CHAT_TONGJI);
     }
 
     @ApiOperation(value = "获取移动端域名")

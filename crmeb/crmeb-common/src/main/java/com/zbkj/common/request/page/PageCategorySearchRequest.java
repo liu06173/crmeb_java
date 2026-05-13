@@ -5,7 +5,6 @@ import lombok.Data;
 
 
 /**
- * @Auther: 大粽子
  * @Date: 2023/5/16 11:23
  * @Description: 页面DIY和设计用到的分类
  */

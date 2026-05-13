@@ -18,7 +18,6 @@ import java.util.Date;
  * 异常信息表
  * </p>
  *
- * @author HZW
  * @since 2023-02-27
  */
 @Data

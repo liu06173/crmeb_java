@@ -6,7 +6,6 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @Auther: 大粽子
  * @Date: 2023/5/16 11:28
  * @Description: 页面设计和DIY用到的链接查询对象
  */

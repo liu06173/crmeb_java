@@ -7,7 +7,6 @@ import javax.validation.constraints.NotNull;
 
 /**
  * 活动边框 更新状态
- * @Auther: 大粽子
  * @Date: 2023/1/5 15:38
  * @Description: 描述对应的业务场景
  */

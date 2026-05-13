@@ -2,7 +2,6 @@ package com.zbkj.common.enums;
 
 /** 易联云 枚举
  * @program: crmeb
- * @author: 大粽子
  * @create: 2021-11-27 10:38
  **/
 public enum EnumYly {

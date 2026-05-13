@@ -25,13 +25,9 @@ import java.util.List;
 /**
  * SystemFormTempServiceImpl 接口实现
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2025 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 @Service
@@ -139,7 +135,6 @@ public class SystemFormTempServiceImpl extends ServiceImpl<SystemFormTempDao, Sy
      * @param regList List<SystemConfigFormItemConfigRegListVo 正则表达式列表
      * @param value String 验证的值
      * @param name String 提示语字段名称
-     * @author Mr.Zhang
      * @since 2020-04-16
      */
     private void checkRule(List<SystemConfigFormItemConfigRegListVo> regList, String value, String name) {

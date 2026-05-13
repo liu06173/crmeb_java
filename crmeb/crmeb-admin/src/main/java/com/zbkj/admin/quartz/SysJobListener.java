@@ -18,7 +18,6 @@ import java.util.Date;
 
 /**
  * 异步监听定时任务事件，解决job线程无故丢失的问题
- * @Author 指缝de阳光
  * @Date 2021/11/30 16:59
  * @Version 1.0
  */

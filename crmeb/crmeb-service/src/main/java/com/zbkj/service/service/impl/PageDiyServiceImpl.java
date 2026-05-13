@@ -38,7 +38,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
-* @author dazongzi
 * @description PageDiyServiceImpl 接口实现
 * @date 2023-05-16
 */
@@ -58,7 +57,6 @@ public class PageDiyServiceImpl extends ServiceImpl<PageDiyDao, PageDiy> impleme
      * 列表
      *
      * @return List<PageDiy>
-     * @author dazongzi
      * @since 2023-05-16
      */
     @Override

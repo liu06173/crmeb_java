@@ -7,7 +7,6 @@ import com.zbkj.common.request.PageParamRequest;
 import com.zbkj.common.request.ScheduleJobLogSearchRequest;
 
 /**
- * @author HZW
  * @description ScheduleJobLogService 接口
  * @date 2021-11-30
  */

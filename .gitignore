@@ -1,13 +1,9 @@
 .idea/
 app/unpackage
-Crmeb-2022-01-04.log
+*.log
 crmeb_front_log
 crmeb/LOG_HOME_IS_UNDEFINED
-*.
-*.
 .DS_Store
-<<<<<<< HEAD
-=======
 
 # Large files
 *.zip
@@ -19,4 +15,3 @@ crmeb/LOG_HOME_IS_UNDEFINED
 
 # Working directories
 .claude/
->>>>>>> 6332e5584c59ad3c1c3eab43b79261a53c5a20e6

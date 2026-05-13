@@ -39,7 +39,6 @@ public class PageDiyController {
 
     /**
      * 分页显示DIY数据表
-     * @author dazongzi
      * @since 2023-05-16
      */
     @PreAuthorize("hasAuthority('admin:pagediy:list')")
@@ -56,7 +55,6 @@ public class PageDiyController {
     /**
      * 设置首页
      * @param id 待设置的首页id
-     * @author dazongzi
      * @since 2023-05-16
      */
     @PreAuthorize("hasAuthority('admin:pagediy:setdefault')")
@@ -84,7 +82,6 @@ public class PageDiyController {
     /**
      * 新增DIY数据表
      * @param pageDiyRequest 新增参数
-     * @author dazongzi
      * @since 2023-05-16
      */
     @PreAuthorize("hasAuthority('admin:pagediy:save')")
@@ -100,7 +97,6 @@ public class PageDiyController {
     /**
      * 删除DIY数据表
      * @param id Integer
-     * @author dazongzi
      * @since 2023-05-16
      */
     @PreAuthorize("hasAuthority('admin:pagediy:delete')")
@@ -117,7 +113,6 @@ public class PageDiyController {
     /**
      * 修改DIY数据表
      * @param pageDiyRequest 修改参数
-     * @author dazongzi
      * @since 2023-05-16
      */
     @PreAuthorize("hasAuthority('admin:pagediy:update')")
@@ -153,7 +148,6 @@ public class PageDiyController {
     /**
      * 查询DIY数据表信息
      * @param id Integer
-     * @author dazongzi
      * @since 2023-05-16
      */
     @PreAuthorize("hasAuthority('admin:pagediy:info')")

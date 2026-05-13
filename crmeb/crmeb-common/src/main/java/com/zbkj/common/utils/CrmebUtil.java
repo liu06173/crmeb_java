@@ -22,13 +22,9 @@ import java.util.regex.Pattern;
 /**
  * Crmeb工具类
  * +----------------------------------------------------------------------
- * | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
  * +----------------------------------------------------------------------
- * | Copyright (c) 2016~2022 https://www.crmeb.com All rights reserved.
  * +----------------------------------------------------------------------
- * | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
  * +----------------------------------------------------------------------
- * | Author: CRMEB Team <admin@crmeb.com>
  * +----------------------------------------------------------------------
  */
 public class CrmebUtil {
@@ -69,7 +65,6 @@ public class CrmebUtil {
     /**
      * 对象转map
      * @param object 对象
-     * @author Mr.Zhang
      * @since 2020-04-14
      * @return Map
      */
@@ -85,7 +80,6 @@ public class CrmebUtil {
      * map转对象
      * @param map map
      * @param clz 对象
-     * @author Mr.Zhang
      * @since 2020-04-14
      * @return Map
      */
@@ -98,7 +92,6 @@ public class CrmebUtil {
      * map转对象
      * @param map map
      * @param clz 对象
-     * @author Mr.Zhang
      * @since 2020-04-14
      * @return Map
      */
@@ -137,7 +130,6 @@ public class CrmebUtil {
     /**
      * map合并
      * @param map 对象
-     * @author Mr.Zhang
      * @since 2020-04-14
      * @return Object
      */
@@ -151,7 +143,6 @@ public class CrmebUtil {
     /**
      * 字符串分割，转化为数组
      * @param str 字符串
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<Integer>
      */
@@ -163,7 +154,6 @@ public class CrmebUtil {
      * 字符串分割，转化为数组
      * @param str 字符串
      * @param regex 分隔符有
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<Integer>
      */
@@ -188,7 +178,6 @@ public class CrmebUtil {
     /**
      * 字符串分割，转化为数组
      * @param str 字符串
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<String>
      */
@@ -214,7 +203,6 @@ public class CrmebUtil {
      * 字符串分割，转化为数组
      * @param str 字符串
      * @param regex 分隔符有
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<String>
      */
@@ -238,7 +226,6 @@ public class CrmebUtil {
     /**
      * 字符串分割，转化为数组
      * @param str 字符串
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<Object>
      */
@@ -250,7 +237,6 @@ public class CrmebUtil {
      * 字符串分割，转化为数组
      * @param str 字符串
      * @param regex 分隔符有
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<Object>
      */
@@ -274,7 +260,6 @@ public class CrmebUtil {
     /**
      * json字符串转数组
      * @param str 字符串
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<String>
      */
@@ -291,7 +276,6 @@ public class CrmebUtil {
     /**
      * json字符串转数组
      * @param str 字符串
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<Integer>
      */
@@ -308,7 +292,6 @@ public class CrmebUtil {
     /**
      * json字符串转数组
      * @param str 字符串
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<Integer>
      */
@@ -325,7 +308,6 @@ public class CrmebUtil {
     /**
      * json字符串转数组
      * @param str 字符串
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return List<T>
      */
@@ -340,7 +322,6 @@ public class CrmebUtil {
     /**
      * 去掉域名 https / http / www 信息
      * @param domain 域名
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return String
      */
@@ -356,7 +337,6 @@ public class CrmebUtil {
     /**
      * 获取根域名
      * @param domain 域名
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return String
      */
@@ -376,7 +356,6 @@ public class CrmebUtil {
     /**
      * 获取客户端ip
      * @param request 参数
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return String
      */
@@ -406,7 +385,6 @@ public class CrmebUtil {
     /**
      * 检测是否为ip
      * @param ip 参数
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return String
      */
@@ -430,7 +408,6 @@ public class CrmebUtil {
      * 获取fin_in_set拼装sql
      * @param field String 字段
      * @param value Integer 值
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return String
      */
@@ -442,7 +419,6 @@ public class CrmebUtil {
      * 获取fin_in_set拼装sql
      * @param field String 字段
      * @param list ArrayList<Integer> 值
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return String
      */
@@ -458,7 +434,6 @@ public class CrmebUtil {
      * 获取fin_in_set拼装sql
      * @param field String 字段
      * @param idStr String 多个值，逗号分割
-     * @author Mr.Zhang
      * @since 2020-04-22
      * @return String
      */
@@ -475,7 +450,6 @@ public class CrmebUtil {
      * 通过id获取分类名称
      * @param list 分类集合
      * @param categoryIdStr id字符串
-     * @author Mr.Zhang
      * @since 2020-05-06
      * @
      */
@@ -503,7 +477,6 @@ public class CrmebUtil {
      * 通过id获取分类名称
      * @param list 分类集合
      * @param key id
-     * @author Mr.Zhang
      * @since 2020-05-06
      * @
      */
@@ -518,7 +491,6 @@ public class CrmebUtil {
      * 通过id获取分类名称
      * @param list 分类集合
      * @param key id
-     * @author Mr.Zhang
      * @since 2020-05-06
      * @
      */
@@ -531,7 +503,6 @@ public class CrmebUtil {
 
     /**
      * 获取uuid
-     * @author Mr.Zhang
      * @since 2020-05-06
      * @
      */
@@ -543,7 +514,6 @@ public class CrmebUtil {
      * 同比率计算 //同比增长率= ((当前周期 - 上一个周期) ÷ 上一个周期 ) *100%
      * @param i1 当前周期
      * @param i2 上一个周期
-     * @author Mr.Zhang
      * @since 2020-05-06
      * @
      */
@@ -557,7 +527,6 @@ public class CrmebUtil {
      * 同比率计算 //同比增长率= ((当前周期 - 上一个周期) ÷ 上一个周期 ) *100%
      * @param b1 当前周期
      * @param b2 上一个周期
-     * @author Mr.Zhang
      * @since 2020-05-06
      * @
      */
@@ -589,7 +558,6 @@ public class CrmebUtil {
      * 同比率计算 //同比增长率= ((当前周期 - 上一个周期) ÷ 上一个周期 ) *100%
      * @param i1 当前周期
      * @param i2 上一个周期
-     * @author Mr.Zhang
      * @since 2020-05-06
      * @
      */
@@ -604,7 +572,6 @@ public class CrmebUtil {
      * 如果上个周期为0， = 当前周期 * 100%
      * @param b1 当前周期
      * @param b2 上一个周期
-     * @author Mr.Zhang
      * @since 2020-05-06
      * @
      */
@@ -627,7 +594,6 @@ public class CrmebUtil {
     /**
      * hash 转换
      * @param hash final byte[] hash参数
-     * @author Mr.Zhang
      * @since 2020-06-03
      * @return String
      */
@@ -644,7 +610,6 @@ public class CrmebUtil {
     /**
      * hash 转换
      * @param base64 String 图片流
-     * @author Mr.Zhang
      * @since 2020-06-03
      * @return String
      */

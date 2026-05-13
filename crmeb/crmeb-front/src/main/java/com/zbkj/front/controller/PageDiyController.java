@@ -31,7 +31,6 @@ public class PageDiyController {
     /**
      * 查询DIY数据表信息
      * @param id Integer
-     * @author dazongzi
      * @since 2023-05-16
      */
     @ApiOperation(value = "详情")

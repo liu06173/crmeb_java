@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit;
  *
  * ☆☆☆ SPI： 在resources目录新建META-INF.services文件夹(两层)，参考当前服务resources。
  *
- * @author Han
  * @version 1.0.0
  * @Date 2025/6/13
  */
