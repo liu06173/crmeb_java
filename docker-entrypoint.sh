@@ -42,11 +42,16 @@ java -jar target/Crmeb-front.jar &
 FRONT_PID=$!
 
 echo ""
-echo "========================================"
-echo "  Admin API: http://localhost:8080"
-echo "  Front API: http://localhost:8081"
-echo "  Admin login: admin / 123456"
-echo "========================================"
 echo ""
+echo "****************************************************"
+echo "*                                                  *"
+echo "*   Admin API:  http://localhost:8080              *"
+echo "*   Front API:  http://localhost:8081              *"
+echo "*   Admin login: admin / 123456                    *"
+echo "*   Swagger:    http://localhost:8080/swagger-ui.html  *"
+echo "*                                                  *"
+echo "****************************************************"
+echo ""
+echo "Press Ctrl+C to stop all services"
 
 wait

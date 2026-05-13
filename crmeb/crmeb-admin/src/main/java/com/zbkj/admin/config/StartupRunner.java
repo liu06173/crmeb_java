@@ -43,12 +43,7 @@ public class StartupRunner implements CommandLineRunner {
             if (StrUtil.isBlank(apiUrl) || !(StrUtil.startWithIgnoreCase(apiUrl, "http"))) {
                 return;
             }
-            Map<String, String> map = new HashMap<>();
-            map.put("host", apiUrl);
-            map.put("version", version);
-            map.put("https", "https");
-            String result = HttpUtil.post("", JSONObject.toJSONString(map));
-
+            // 统计上报URL未配置时跳过
         } catch (Exception e) {
             // 异步调用不应影响主流程
             e.printStackTrace();
